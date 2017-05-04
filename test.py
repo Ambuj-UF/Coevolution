@@ -1,11 +1,4 @@
 from src.coevolution import coevol
-
-from Bio import SeqIO
-from Bio.Alphabet import generic_dna
-from Bio.SeqRecord import SeqRecord
-from Bio.Seq import Seq
-
-
 from src.network import write_network_xml
 from Bio.Seq import translate
 
